@@ -41,10 +41,12 @@ void rand_permutation(int n, int array[]) {
 
 	int k;
 
+	// array filing
 	for ( int i=0 ; i<n ; i++){
 		array[i]=i;
 	}
 
+	// permutating
 	for ( int i=0 ; i<n-1 ; i++ ){
 		k=rand_from_interval(i,n-1);
 		swap(array,i,k);
