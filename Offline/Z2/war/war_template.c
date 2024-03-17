@@ -167,12 +167,6 @@ void game(int A_deck[], int B_deck[], int max_conflicts, int simplified_mode) {
 
 		n_cards_ontable=0; 
 		
-		//	end codes:
-		//	Max conficts reached: 0
-		//	No cards left: 1
-		//	A wins: 2
-		//	B wins: 3
-
 		if ( result == 1 ){
 			// no cards left
 			printf("1 %d %d",len_A,len_B);
@@ -234,3 +228,9 @@ int main(void) {
 	return 0;
 }
 
+
+//	end codes:
+//	Max conficts reached: 0
+//	No cards left: 1
+//	A wins: 2
+//	B wins: 3
