@@ -136,7 +136,7 @@ int read_int_lines_cont(int* ptr_array[]) {
 
 }
 
-void write_int_line_cont(int *ptr_array[], int n) {
+void write_int_line_cont(int* ptr_array[], int n) {
 	for( int* ptr = ptr_array[n] ; ptr < ptr_array[n+1] ; ptr++ ){
 		printf("%d ",*ptr);
 	}
